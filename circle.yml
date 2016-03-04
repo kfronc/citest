@@ -12,3 +12,9 @@ dependencies:
 test:
   override:
     - ./activator test
+
+deployment:
+  test:
+    branch: master
+    commands:
+      - ./deploy-test.sh
