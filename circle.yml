@@ -1,3 +1,5 @@
 machine:
   java:
     version: oraclejdk8
+  scala:
+    SBT_VERSION: 0.13.8
