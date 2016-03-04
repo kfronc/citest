@@ -4,3 +4,11 @@ machine:
   environment:
     SBT_VERSION: 0.13.8
     SBT_SCALA_VERSION: 2.11.6
+
+dependecies:
+  override:
+    - ./activator update
+
+test:
+  override:
+    - ./activator test
