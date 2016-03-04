@@ -1,5 +1,5 @@
 machine:
   java:
     version: oraclejdk8
-  scala:
+  environment:
     SBT_VERSION: 0.13.8
